@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-063933E3C2"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-063933E3C2");
+    </script>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#bbdefb" />
+
+    <title>Motivational Numerology</title>
+    <link
+      rel="canonical"
+      href="https://evoluteur.github.io/motivational-numerology/"
+    />
+
+    <link href="css/numerology.css" rel="stylesheet" />
+    <script src="i18n/meaning_en.js"></script>
+    <script src="js/numerology.js"></script>
+    <script src="js/demo.js"></script>
+    <link rel="shortcut icon" href="favicon.gif" />
+
+    <link
+      rel="alternate"
+      hreflang="en-us"
+      href="https://evoluteur.github.io/motivational-numerology/"
+    />
+    <link
+      rel="alternate"
+      hreflang="es-es"
+      href="https://evoluteur.github.io/motivational-numerology/index-spanish.html"
+    />
+    <link
+      rel="alternate"
+      hreflang="fr-fr"
+      href="https://evoluteur.github.io/motivational-numerology/index-french.html"
+    />
+    <link
+      rel="alternate"
+      hreflang="de-de"
+      href="https://evoluteur.github.io/motivational-numerology/index-german.html"
+    />
+    <link
+      rel="alternate"
+      hreflang="pt-br"
+      href="https://evoluteur.github.io/motivational-numerology/index-portuguese.html"
+    />
+    <link
+      rel="alternate"
+      hreflang="it-it"
+      href="https://evoluteur.github.io/motivational-numerology/index-italian.html"
+    />
+    <link
+      rel="alternate"
+      hreflang="nl-nl"
+      href="https://evoluteur.github.io/motivational-numerology/index-dutch.html"
+    />
+    <link
+      rel="alternate"
+      hreflang="tr-tr"
+      href="https://evoluteur.github.io/motivational-numerology/index-turkish.html"
+    />
+    <link
+      rel="alternate"
+      hreflang="id-id"
+      href="https://evoluteur.github.io/motivational-numerology/index-indonesian.html"
+    />
+    <link
+      rel="alternate"
+      hreflang="ja-jp"
+      href="https://evoluteur.github.io/motivational-numerology/index-japanese.html"
+    />
+    <link
+      rel="alternate"
+      hreflang="vi-vn"
+      href="https://evoluteur.github.io/motivational-numerology/index-vietnamese.html"
+    />
+    <link
+      rel="alternate"
+      hreflang="x-default"
+      href="https://evoluteur.github.io/motivational-numerology/"
+    />
+
+    <meta
+      name="description"
+      content="Calculate and interpret the numerology numbers derived from your name and birth date."
+    />
+    <meta
+      name="keywords"
+      content="free, numerology, gematria, occult, pythagoras, arithmosophy, meaning, reading, charts, numbers, character, soul, destiny, personality, attitude, arithmancy, forecast, occult"
+    />
+    <meta
+      property="og:image"
+      content="https://raw.githubusercontent.com/evoluteur/motivational-numerology/master/pix/numerology-star-labels.gif"
+    />
+  </head>
+
+  <body onload="checkInfo()">
+    <h1>Motivational Numerology <span></span></h1>
+
+    <div class="i18n">
+      <div id="allNumbers"></div>
+   
+
+    </div>
+
+    <section class="inputForm">
+      <div class="ml210">
+        <div class="field name">
+          <label
+            >Full name
+            <span class="grey"
+              >(Firstname, middle name, and lastname)</span
+            ></label
+          >
+          <input id="name" value="" onKeyUp="calcName()" />
+        </div>
+        <div class="field bdate">
+          <label>Birth date <span class="grey">(Month/Day/Year)</span></label>
+          <select id="month" onChange="calcBDay()">
+            <option></option>
+            <option value="1">January</option>
+            <option value="2">February</option>
+            <option value="3">March</option>
+            <option value="4">April</option>
+            <option value="5">May</option>
+            <option value="6">June</option>
+            <option value="7">July</option>
+            <option value="8">August</option>
+            <option value="9">September</option>
+            <option value="10">October</option>
+            <option value="11">November</option>
+            <option value="12">December</option>
+          </select>
+          <input
+            id="day"
+            onKeyUp="calcBDay()"
+            onClick="calcBDay()"
+            type="number"
+            min="1"
+            max="31"
+            maxlength="2"
+          />
+          <input
+            id="year"
+            onKeyUp="calcBDay()"
+            onClick="calcBDay()"
+            type="number"
+            min="0"
+            maxlength="4"
+          />
+        </div>
+      </div>
+      <div class="fullStar">
+        <div id="star" class="star">
+          <span class="t0"></span>
+          <div class="t1"></div>
+          <div class="t2"></div>
+          <div class="t3"></div>
+          <div class="t4"></div>
+          <div class="t5"></div>
+        </div>
+        <div id="star-holder"></div>
+      </div>
+    </section>
+
+    <section>
+      <div id="report1">
+        <a name="character"></a>
+        <article class="artnum">
+          <h2>Character = ?</h2>
+          <div class="desc">
+            This number represents primarily your public and social qualities,
+            but you would also exhibit much of the same in your personal
+            relations, too.
+          </div>
+        </article>
+        <a name="soul"></a>
+        <article class="artnum">
+          <h2>Soul Urge = ?</h2>
+          <div class="desc">
+            This influence presents a view of your intuitive, soulful self.
+          </div>
+        </article>
+        <a name="agenda"></a>
+        <article class="artnum">
+          <h2>Hidden Agenda = ?</h2>
+          <div class="desc">
+            This vibration offers your innate (hidden) desires.
+          </div>
+        </article>
+      </div>
+      <div id="report2">
+        <a name="destiny"></a>
+        <article class="artnum">
+          <h2>Destiny = ?</h2>
+          <div class="desc">
+            This is the most influential number in relation to your personal
+            motivations, what and who you like in your surroundings, and the
+            career(s) you would be most likely to aspire toward.
+          </div>
+        </article>
+        <a name="personality"></a>
+        <article class="artnum">
+          <h2>Personality = ?</h2>
+          <div class="desc">
+            This number describes the behind-the-scenes or private you.
+          </div>
+        </article>
+        <a name="attitude"></a>
+        <article class="artnum">
+          <h2>Attitude = ?</h2>
+          <div class="desc">
+            This number is most powerful in the first 30-35 years of your life
+            and represents the how and why you react to circumstances in your
+            youth.
+          </div>
+        </article>
+      </div>
+      <div id="report3">
+        <a name="purpose"></a>
+        <article class="artnum">
+          <h2>Divine Purpose = ?</h2>
+          <div class="desc">
+            This is your farewell-performance number vibration. It is what your
+            Soulful Self has chosen to achieve in your latter years of life.
+          </div>
+        </article>
+      </div>
+    </section>
+    <div id="allNumbers"></div>
+    <br/>
+    <br/>
+   <div >
+  
+    <hr class="line5"/>
+  
+    <div class="copy  copy2">
+      <div>
+        <div class="evo-footer copy2" role="contentinfo">
+          <div>
+            Made in INDIA with
+            <div class="heart">♥</div>
+          </div>
+        </div>
+        <br />
+        <div class="copy2">
+        Version 24.0 - Connect with me on 
+        <a
+          target="github"
+          rel="noopener"
+          href="https://github.com/Chhavi9700225780/numerology"
+          >LinkedIn</a
+        >.</div> 
+        <br />
+         <div class="copy2">
+        You may be interested in my other project
+        <a
+          href="https://github.com/Chhavi9700225780"
+          target="og"
+          rel="noopener"
+          >GitHub</a
+        >.
+      </div>
+        <br />
+        
+        <div class="copy2">
+          &#169; 2024  Made by Chhavi   </div>
+        
+       
+      </div>
+    </div>
+  </div>
+  </body>
+</html>
