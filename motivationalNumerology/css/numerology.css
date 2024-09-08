@@ -574,3 +574,7 @@ section {
     transform: scale(1.4);
   }
 }
+.app{
+ margin-top: 18px; top: 18px;
+  text-align: center;
+}
