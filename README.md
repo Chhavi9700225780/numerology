@@ -96,21 +96,3 @@ Like in the above examples, you can use the url parameters "name", "month", "day
 
 
 
-## Code
-
-The [code](https://github.com/evoluteur/motivational-numerology) is based on the book [Motivational Numerology](https://www.amazon.com/Motivational-Numerology-Numbers-Affect-Your/dp/0929765974) by [Sally Faubion](http://sallysnumbers.com/).
-
-To learn more about your numerology numbers and they mean for you, [book a personal reading with Sally Faubion](https://sallysnumbers.com/services/).
-
-
-[Motivational-Numerology](https://github.com/evoluteur/motivational-numerology)  is Open Source at [GitHub](https://github.com/evoluteur/motivational-numerology) with AGPLv3 license.
-
-Contribute to Motivational-Numerology:
-
-- [Report a Bug](https://github.com/evoluteur/motivational-numerology/labels/bug)
-- [Propose a Feature Request](https://github.com/evoluteur/motivational-numerology/labels/enhancement)
-- [Submit a Pull Request](https://github.com/evoluteur/motivational-numerology/pulls)
-
-You may also be interested in my other project [Healing Frequencies](https://github.com/evoluteur/healing-frequencies).
-
-(c) 2024 [Sally Faubion](http://sallysnumbers.com/) & [Olivier Giulieri](https://evoluteur.github.io/).
