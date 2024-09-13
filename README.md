@@ -1,12 +1,10 @@
 # Motivational-Numerology [![npm version](https://img.shields.io/npm/v/motivational-numerology)](https://www.npmjs.com/package/motivational-numerology)
 
-Motivational-Numerology is a web page to calculate the numerology numbers derived from your name and birth date and get a brief interpretation by [Sally Faubion](http://sallysnumbers.com/).
+Motivational-Numerology is a web page to calculate the numerology numbers derived from your name and birth date and get a brief interpretation. 
 
-Check out [your numerology star](https://evoluteur.github.io/motivational-numerology/).
+Check out [your numerology star](https://numerology.netlify.app).
 
 [![Star](https://raw.githubusercontent.com/evoluteur/motivational-numerology/master/pix/numerology-star-labels.gif)](https://evoluteur.github.io/motivational-numerology/)
-
-To better understand your personal numerology numbers and go deeper in their interpretation, [book a private phone reading](https://sallysnumbers.com/services/) with Sally Faubion.
 
 ## Numerology Numbers
 
@@ -63,6 +61,6 @@ This is your farewell-performance number vibration. It is what your Soulful Self
 
  </div>
 
-Check out [your numerology numbers](https://evoluteur.github.io/motivational-numerology/).
+
 
 
