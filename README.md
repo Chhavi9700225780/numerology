@@ -2,7 +2,6 @@
 
 Motivational-Numerology is a web page to calculate the numerology numbers derived from your name and birth date and get a brief interpretation. 
 
-Check out [your numerology star](https://numerology.netlify.app).
 
 [![Star](https://raw.githubusercontent.com/evoluteur/motivational-numerology/master/pix/numerology-star-labels.gif)](https://evoluteur.github.io/motivational-numerology/)
 
