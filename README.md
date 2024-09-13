@@ -66,33 +66,3 @@ This is your farewell-performance number vibration. It is what your Soulful Self
 Check out [your numerology numbers](https://evoluteur.github.io/motivational-numerology/).
 
 
-## Examples
-
-Let's look at the numbers of a few famous actors:
-
-[Keanu Reeves](https://evoluteur.github.io/motivational-numerology/?name=Keanu+Charles+Reeves&month=9&day=2&year=1964),
-[Samuel L. Jackson](https://evoluteur.github.io/motivational-numerology/?name=Samuel+Leroy+Jackson&month=12&day=21&year=1948),
-[Denzel Washington](https://evoluteur.github.io/motivational-numerology/?name=Denzel+Hayes+Washington+Junior&month=12&day=28&year=1954),
-[Tom Hanks](https://evoluteur.github.io/motivational-numerology/?name=Thomas+Jeffrey+Hanks&month=7&day=9&year=1956),
-[Matt Damon](https://evoluteur.github.io/motivational-numerology/?name=Matthew+Paige+Damon&month=8&day=8&year=1970),
-[Anthony Hopkins](https://evoluteur.github.io/motivational-numerology/?name=Philip+Anthony+Hopkins&month=12&day=31&year=1937),
-[Julia Roberts](https://evoluteur.github.io/motivational-numerology/?name=Julia+Fiona+Roberts&month=10&day=28&year=1967),
-[Hugh Jackman](https://evoluteur.github.io/motivational-numerology/?name=Hugh+Michael+Jackman+AC&month=10&day=12&year=1968),
-[Jamie Lee Curtis](https://evoluteur.github.io/motivational-numerology/?name=Jamie+Lee+Curtis&month=11&day=22&year=1958),
-[Jack Nicholson](https://evoluteur.github.io/motivational-numerology/?name=John+Joseph+Nicholson&month=4&day=22&year=1937),
-[Johnny Depp](https://evoluteur.github.io/motivational-numerology/?name=John+Christopher+Depp+II&month=6&day=9&year=1963),
-[Sandra Bullock](https://evoluteur.github.io/motivational-numerology/?name=Sandra+Annette+Bullock&month=7&day=26&year=1964),
-[Brad Pitt](https://evoluteur.github.io/motivational-numerology/?name=William+Bradley+Pitt&month=12&day=18&year=1963),
-[Angelina Jolie](https://evoluteur.github.io/motivational-numerology/?name=Angelina+Jolie+Voight&month=6&day=4&year=1975),
-[Morgan Freeman](https://evoluteur.github.io/motivational-numerology/?name=Morgan+Freeman&month=6&day=1&year=1937),
-[Leonardo DiCaprio](https://evoluteur.github.io/motivational-numerology/?name=Leonardo+Wilhelm+DiCaprio&month=11&day=11&year=1974),
-[Robert De Niro](https://evoluteur.github.io/motivational-numerology/?name=Robert+Anthony+De+Niro+Jr.&month=8&day=17&year=1943),
-[Robin Williams](https://evoluteur.github.io/motivational-numerology/?name=Robin+McLaurin+Williams&month=7&day=21&year=1951),
-[Will Smith](https://evoluteur.github.io/motivational-numerology/?name=Willard+Carroll+Smith+Jr.&month=9&day=25&year=1968),
-[Danny DeVito](https://evoluteur.github.io/motivational-numerology/?name=Daniel+Michael+DeVito+Jr.&month=11&day=17&year=1944),
-[Nicolas Cage](https://evoluteur.github.io/motivational-numerology/?name=Nicolas+Kim+Coppola&month=1&day=7&year=1964)...
-
-Like in the above examples, you can use the url parameters "name", "month", "day", "year" to set the values on the numerology page.
-
-
-
